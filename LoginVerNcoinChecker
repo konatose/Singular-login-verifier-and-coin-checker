@@ -23,6 +23,5 @@ except VerificationRequired as e:
     OP(e.args[0]["url"])
     print(e.args[0]["url"])
 
-totalcoin = 0 
 coins = int(client.get_wallet_info().totalCoins)
 print( f"Total coins:- {coins}\n")
